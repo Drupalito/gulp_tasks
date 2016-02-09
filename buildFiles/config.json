@@ -1,0 +1,21 @@
+{
+  "name": "StarterDrupal",
+  "url": "starterdrupal.localhost",
+  "theme_path": "../../repository/themes/custom/subtheme_child",
+  "autoprefixer": [
+    "last 3 versions",
+    "ie >= 8",
+    "ios >= 7",
+    "android >= 4.4",
+    "opera 12"
+  ],
+  "buildPath": {
+    "source": "/source",
+    "dist": {
+      "css": "/css",
+      "images": "/images",
+      "fonts": "/fonts",
+      "js": "/js"
+    }
+  }
+}

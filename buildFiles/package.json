@@ -1,0 +1,32 @@
+{
+  "name": "astarter",
+  "version": "1.0.0",
+  "description": "Source builded for Drupal Theme",
+  "main": "conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Axel Roche",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "configure": "0.0.1",
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-csscomb": "^3.0.6",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-minify-css": "^1.2.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.1",
+    "gulp-uglify": "^1.5.1",
+    "gulp-watch": "^4.3.5",
+    "jshint-stylish": "^2.1.0",
+    "require-dir": "^0.3.0"
+  },
+  "dependencies": {
+    "imagemin-pngquant": "^4.2.0"
+  }
+}
