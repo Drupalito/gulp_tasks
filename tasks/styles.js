@@ -10,6 +10,8 @@ const browserSync = require('browser-sync');
 
 const pathBuild = config.buildPath;
 
+// https://github.com/ai/browserslist#queries
+
 // Build CSS files task
 gulp.task('styles', () => {
   gulp.src(config.theme_path + pathBuild.source + '/scss/**/*.scss')
