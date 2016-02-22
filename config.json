@@ -1,7 +1,7 @@
 {
   "name": "StarterDrupal",
   "url": "starterdrupal.localhost",
-  "theme_path": "../../repository/themes/custom/subtheme_child",
+  "theme_path": "../repository/themes/custom/subtheme_child",
   "autoprefixer": [
     "last 3 versions",
     "ie >= 8",
