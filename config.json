@@ -1,6 +1,6 @@
 {
-  "name": "StarterDrupal",
-  "url": "starterdrupal.localhost",
+  "name": "subtheme_child",
+  "url": "[URL]",
   "theme_path": "../repository/themes/custom/subtheme_child",
   "autoprefixer": [
     "last 3 versions",

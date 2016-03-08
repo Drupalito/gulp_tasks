@@ -1,10 +1,9 @@
 
 /*!
- * @file: gulpfile.js
- * 2016 Axel Roche
+ * subtheme_child (OWNER_NAME)
+ * Gulp Tasks (CURRENT_YEAR)
  * Licensed MIT
  */
-
 'use strict';
 
 // Module to require whole directories
