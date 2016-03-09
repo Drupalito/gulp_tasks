@@ -2,14 +2,6 @@
 
 scss_files: "**/*.scss"
 
-exclude:
-  - /Users/aquelito/htdocs/freelance/starter/me.drupalito.d7starter/site/www/sites/all/themes/d7starter/source/scss/screen-debug-grid.scss
-  - /Users/aquelito/htdocs/freelance/starter/me.drupalito.d7starter/site/www/sites/all/themes/d7starter/source/scss/screen-editor.scss
-  - /Users/aquelito/htdocs/freelance/starter/me.drupalito.d7starter/site/www/sites/all/themes/d7starter/source/scss/screen-theme.scss
-  - /Users/aquelito/htdocs/freelance/starter/me.drupalito.d7starter/site/www/sites/all/themes/d7starter/source/scss/screen.scss
-  - /Users/aquelito/htdocs/freelance/starter/me.drupalito.d7starter/site/www/sites/all/themes/d7starter/source/scss/print.scss
-  - /Users/aquelito/htdocs/freelance/starter/me.drupalito.d7starter/site/www/sites/all/themes/d7starter/source/scss/ie8.scss
-
 linters:
   BangFormat:
     enabled: true
