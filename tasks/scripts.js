@@ -24,18 +24,4 @@ gulp.task('scripts', () => {
       mangle: false
     }))
     .pipe(gulp.dest(config.theme_path + pathBuild.dist.js));
-
-  gulp.src([
-      config.theme_path + pathBuild.source + '/js/vendor/jquery.collapse.js',
-      config.theme_path + pathBuild.source + '/js/vendor/jquery.modal.js',
-      config.theme_path + pathBuild.source + '/js/vendor/jquery.tab.js',
-      config.theme_path + pathBuild.source + '/js/vendor/jquery.superfish.js',
-    ])
-    .pipe(concat('vendor.js'))
-    .pipe(gulp.dest(config.theme_path + pathBuild.dist.js))
-    .pipe(rename('vendor.min.js'))
-    .pipe(uglify({
-      mangle: false
-    }))
-    .pipe(gulp.dest(config.theme_path + pathBuild.dist.js));
 });
