@@ -1,0 +1,152 @@
+url: http://google.fr
+browsers:
+    -
+      device: null
+      browser: "chrome"
+      os: "Windows"
+      os_version: "8"
+      browser_version: "42.0"
+    -
+      device: null
+      browser: "chrome"
+      os: "Windows"
+      os_version: "8"
+      browser_version: "39.0"
+    -
+      device: null
+      browser: "ie"
+      os: "Windows"
+      os_version: "8"
+      browser_version: "10.0"
+    -
+      device: null
+      browser: "firefox"
+      os: "Windows"
+      os_version: "8"
+      browser_version: "37.0"
+    -
+      device: null
+      browser: "firefox"
+      os: "Windows"
+      os_version: "8"
+      browser_version: "35.0"
+    -
+      device: null
+      browser: "opera"
+      os: "Windows"
+      os_version: "8"
+      browser_version: "12.15"
+    -
+      device: null
+      browser: "chrome"
+      os: "Windows"
+      os_version: "7"
+      browser_version: "42.0"
+    -
+      device: null
+      browser: "chrome"
+      os: "Windows"
+      os_version: "7"
+      browser_version: "39.0"
+    -
+      device: null
+      browser: "ie"
+      os: "Windows"
+      os_version: "7"
+      browser_version: "11.0"
+    -
+      device: null
+      browser: "ie"
+      os: "Windows"
+      os_version: "7"
+      browser_version: "10.0"
+    -
+      device: null
+      browser: "ie"
+      os: "Windows"
+      os_version: "7"
+      browser_version: "9.0"
+    -
+      device: null
+      browser: "ie"
+      os: "Windows"
+      os_version: "7"
+      browser_version: "8.0"
+    -
+      device: null
+      browser: "firefox"
+      os: "Windows"
+      os_version: "7"
+      browser_version: "37.0"
+    -
+      device: null
+      browser: "firefox"
+      os: "Windows"
+      os_version: "7"
+      browser_version: "35.0"
+    -
+      device: null
+      browser: "opera"
+      os: "Windows"
+      os_version: "7"
+      browser_version: "12.15"
+    -
+      device: null
+      browser: "chrome"
+      os: "Windows"
+      os_version: "XP"
+      browser_version: "42.0"
+    -
+      device: null
+      browser: "chrome"
+      os: "Windows"
+      os_version: "XP"
+      browser_version: "39.0"
+    -
+      device: null
+      browser: "firefox"
+      os: "Windows"
+      os_version: "XP"
+      browser_version: "37.0"
+    -
+      device: null
+      browser: "firefox"
+      os: "Windows"
+      os_version: "XP"
+      browser_version: "35.0"
+    -
+      device: null
+      browser: "safari"
+      os: "OS X"
+      os_version: "Mavericks"
+      browser_version: "7.1"
+    -
+      device: null
+      browser: "safari"
+      os: "OS X"
+      os_version: "Mountain Lion"
+      browser_version: "6.2"
+    -
+      device: null
+      browser: "firefox"
+      os: "OS X"
+      os_version: "Mountain Lion"
+      browser_version: "37.0"
+    -
+      device: null
+      browser: "firefox"
+      os: "OS X"
+      os_version: "Mountain Lion"
+      browser_version: "35.0"
+    -
+      device: null
+      browser: "chrome"
+      os: "OS X"
+      os_version: "Mountain Lion"
+      browser_version: "42.0"
+    -
+      device: null
+      browser: "chrome"
+      os: "OS X"
+      os_version: "Mountain Lion"
+      browser_version: "39.0"
