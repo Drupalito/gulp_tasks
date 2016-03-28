@@ -2,6 +2,9 @@
 /*!
  * subtheme_child (OWNER_NAME)
  * Gulp Tasks (CURRENT_YEAR)
+ *
+ * Tâche permettant de copier et optimiser
+ * les images png, jpg et gif
  */
 const config = require('configure');
 const gulp = require('gulp');

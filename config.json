@@ -1,7 +1,7 @@
 {
   "name": "subtheme_child",
   "url": "[URL]",
-  "theme_path": "../repository/themes/custom/subtheme_child",
+  "theme_path": "www/sites/all/themes/custom/subtheme_child",
   "autoprefixer": [
     "last 3 versions",
     "ie >= 8",

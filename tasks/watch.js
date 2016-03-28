@@ -2,6 +2,9 @@
 /*!
  * subtheme_child (OWNER_NAME)
  * Gulp Tasks (CURRENT_YEAR)
+ *
+ * Tâche permettant de surveiller
+ * les modifications des fichiers
  */
 const config = require('configure');
 const gulp = require('gulp');
