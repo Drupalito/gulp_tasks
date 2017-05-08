@@ -6,7 +6,7 @@
  * Tâche permettant d'exécuter
  * les tâches de construction
  */
-const config = require('configure');
+const config = require('config-yml');
 const gulp = require('gulp');
 
 // Register tasks

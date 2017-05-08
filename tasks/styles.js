@@ -6,7 +6,7 @@
  * Tâche permettant de construire et optimiser
  * les styles CSS du thèmes
  */
-const config = require('configure');
+const config = require('config-yml');
 const gulp = require('gulp');
 const rename = require('gulp-rename');
 const sass = require('gulp-sass');
@@ -31,10 +31,10 @@ gulp.task('styles', () => {
       }
     }).on('error', sass.logError))
     .pipe(gulp.dest(config.theme_path + pathBuild.dist.css))
-    .pipe(autoprefixer(config.autoprefixer))
+    .pipe(autoprefixer({ browsers: config.autoprefixer}))
     // .pipe(csscomb())
     .pipe(rename({ suffix: '.min' }))
-    .pipe(minifycss())
+    .pipe(minifycss({ keepBreaks: false }))
     .pipe(gulp.dest(config.theme_path + pathBuild.dist.css))
     .pipe(browserSync.reload({stream:true}));
 });

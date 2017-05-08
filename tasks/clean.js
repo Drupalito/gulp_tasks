@@ -6,7 +6,7 @@
  * Tâche permettant de supprimer
  * les dossiers de construction
  */
-const config = require('configure');
+const config = require('config-yml');
 const gulp = require('gulp');
 const del = require('del');
 

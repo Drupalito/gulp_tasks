@@ -6,7 +6,7 @@
  * Tâche permettant de copier
  * les fonts icons et fonts family
  */
-const config = require('configure');
+const config = require('config-yml');
 const gulp = require('gulp');
 
 const pathBuild = config.buildPath;

@@ -6,7 +6,7 @@
  * Tâche permettant de surveiller
  * les modifications des fichiers
  */
-const config = require('configure');
+const config = require('config-yml');
 const gulp = require('gulp');
 const watch = require('gulp-watch');
 const browserSync = require('browser-sync');

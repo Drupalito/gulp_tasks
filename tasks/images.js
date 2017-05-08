@@ -6,7 +6,7 @@
  * Tâche permettant de copier et optimiser
  * les images png, jpg et gif
  */
-const config = require('configure');
+const config = require('config-yml');
 const gulp = require('gulp');
 const imagemin = require('gulp-imagemin');
 const pngquant = require('imagemin-pngquant');

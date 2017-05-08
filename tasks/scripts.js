@@ -6,7 +6,7 @@
  * Tâche permettant de construire et optimiser
  * les scripts Javascript du thème
  */
-const config = require('configure');
+const config = require('config-yml');
 const gulp = require('gulp');
 const rename = require('gulp-rename');
 const concat = require('gulp-concat');
