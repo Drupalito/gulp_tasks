@@ -1,0 +1,18 @@
+name: "subtheme_child"
+url: "[URL]"
+theme_path: "www/sites/all/themes/custom/subtheme_child"
+autoprefixer:
+  - "last 5 versions"
+  - "ie 9"
+  - "ie 10"
+  - "ie 11"
+  - "ios >= 7"
+  - "android >= 4.4"
+  - "opera 12"
+buildPath:
+  source: /source
+  dist:
+    css: /css
+    images: /images
+    fonts: /fonts
+    js: /js
