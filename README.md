@@ -18,3 +18,7 @@
 * `gulp developpement` or `gulp dev` : Sans minification ;
 * `gulp produtction` or `gulp prod` : Avec minification ;
 * `gulp watch` : Observateur de fichiers.
+
+## License
+
+[MIT](./LICENSE) &copy; [aQuELito](https://aquelito.fr/)
