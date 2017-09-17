@@ -25,7 +25,7 @@ gulp.task('watch', () => {
 
   // Initialize browsersync
   browserSync.init(WATCH_FILES, {
-    proxy: 'starterdrupal.localhost',
+    proxy: config.url,
     notify: true
   });
 
