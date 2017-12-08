@@ -13,11 +13,18 @@
 
 `npm install`
 
-## Tâches
+## Tâches automatiques
 
-* `gulp developpement` or `gulp dev` : Sans minification ;
-* `gulp produtction` or `gulp prod` : Avec minification ;
-* `gulp watch` : Observateur de fichiers.
+| Command | Description
+|---------|------------
+| **clean** | Supprime les dossiers contruits: `css`, `js`, `fonts`, `images` et `libraries`.<br/>**À utiliser si on est sur :D**
+| **fonts** | Copie le dossier `source/fonts`.
+| **images** | Copie le dossier `source/images`<br/>Optimise les images png, jpg et svg.
+| **scripts** | Compile les fichiers `source/js`.
+| **styles** | Compile les fichiers `source/scss`.<br/>Utilise `autoprefixer`.
+| **developpement** | **Sans minification des CSS et JS.**<br/>Regroupe: `clean`, `fonts`, `images`, `styles`, `scripts`.
+| **produtction** | **Avec minification des CSS et JS.**<br/>Regroupe: `clean`, `fonts`, `images`, `styles`, `scripts`.
+| **watch** | **Observateur de fichiers.**<br/>Réécriture en cas de modification des fichiers sources.
 
 ## License
 
