@@ -10,7 +10,7 @@ const config = require('config-yml');
 const gulp = require('gulp');
 
 // Register tasks
-gulp.task('production', [
+gulp.task('developpement', [
   'fonts',
   'images',
   'styles',
@@ -18,4 +18,4 @@ gulp.task('production', [
 ]);
 
 // Alias task
-gulp.task('prod', ['production']);
+gulp.task('dev', ['developpement']);
