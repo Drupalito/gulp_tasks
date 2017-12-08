@@ -16,7 +16,7 @@ const pathBuild = config.buildPath;
 const WATCH_FILES = [
   config.theme_path + '/css/**/*.css',
   config.theme_path + '/js/**/*.js',
-  config.theme_path + '/img/**/*',
+  config.theme_path + '/images/**/*',
   config.theme_path + '/*.{php,inc,info,html,md,twig}'
 ];
 

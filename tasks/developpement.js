@@ -12,6 +12,7 @@ const gulp = require('gulp');
 // Register tasks
 gulp.task('developpement', [
   'fonts',
+  'libraries',
   'images',
   'styles',
   'scripts',
