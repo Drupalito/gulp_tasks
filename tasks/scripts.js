@@ -16,7 +16,6 @@ const pathBuild = config.buildPath;
 
 // Concat and uglify JS file task
 gulp.task('scripts', () => {
-
   gulp.src([
       config.theme_path + pathBuild.source + '/js/main.js'
     ])

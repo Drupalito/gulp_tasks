@@ -17,7 +17,7 @@ const WATCH_FILES = [
   config.theme_path + '/css/**/*.css',
   config.theme_path + '/js/**/*.js',
   config.theme_path + '/img/**/*',
-  config.theme_path + '/*.{php,inc,info}'
+  config.theme_path + '/*.{php,inc,info,html,md,twig}'
 ];
 
 // Watch files task
@@ -35,5 +35,5 @@ gulp.task('watch', () => {
   gulp.watch(
     config.theme_path + pathBuild.source + '/js/*.js', ['scripts']);
 
-  gulp.watch(config.theme_drupal + '/**/*.{php,inc,info}').on('change', browserSync.reload);
+  gulp.watch(config.theme_drupal + '/**/*.{php,inc,info,html,md,twig}').on('change', browserSync.reload);
 });
