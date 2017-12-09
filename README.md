@@ -19,6 +19,7 @@
 |---------|------------
 | **clean** | Supprime les dossiers contruits: `css`, `js`, `fonts`, `images` et `libraries`.<br/>**À utiliser si on est sur :D**
 | **fonts** | Copie le dossier `source/fonts`.
+| **libraries** | Copie le dossier `source/libraries`.
 | **images** | Copie le dossier `source/images`<br/>Optimise les images png, jpg et svg.
 | **scripts** | Compile les fichiers `source/js`.
 | **styles** | Compile les fichiers `source/scss`.<br/>Utilise `autoprefixer`.
