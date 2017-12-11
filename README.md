@@ -15,6 +15,16 @@
 
 ## Tâches automatiques
 
+### Tâches principales
+
+| Command | Description
+|---------|------------
+| **build** | **Sans minification des CSS et JS.**<br/>Regroupe: `clean`, `fonts`, `images`, `styles`, `scripts`.
+| **build --prod** | **Avec minification des CSS et JS.**<br/>Regroupe: `clean`, `fonts`, `images`, `styles`, `scripts`.
+| **watch** | **Observateur de fichiers.**<br/>Réécriture en cas de modification des fichiers sources.
+
+### Tâches individuelles
+
 | Command | Description
 |---------|------------
 | **clean** | Supprime les dossiers contruits: `css`, `js`, `fonts`, `images` et `libraries`.<br/>**À utiliser si on est sur :D**
@@ -23,9 +33,6 @@
 | **images** | Copie le dossier `source/images`<br/>Optimise les images png, jpg et svg.
 | **scripts** | Compile les fichiers `source/js`.
 | **styles** | Compile les fichiers `source/scss`.<br/>Utilise `autoprefixer`.
-| **developpement** | **Sans minification des CSS et JS.**<br/>Regroupe: `clean`, `fonts`, `images`, `styles`, `scripts`.
-| **produtction** | **Avec minification des CSS et JS.**<br/>Regroupe: `clean`, `fonts`, `images`, `styles`, `scripts`.
-| **watch** | **Observateur de fichiers.**<br/>Réécriture en cas de modification des fichiers sources.
 
 ## License
 
