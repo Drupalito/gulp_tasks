@@ -11,6 +11,7 @@ const gulp = require('gulp');
 const rename = require('gulp-rename');
 const concat = require('gulp-concat');
 const uglify = require('gulp-uglify');
+const gulpif = require('gulp-if');
 
 const pathBuild = config.buildPath;
 
@@ -21,9 +22,9 @@ gulp.task('scripts', () => {
     ])
     .pipe(concat('main.js'))
     .pipe(gulp.dest(config.theme_path + pathBuild.dist.js))
-    .pipe(rename('main.min.js'))
-    .pipe(uglify({
+    .pipe(gulpif(isProd, rename('main.min.js')))
+    .pipe(gulpif(isProd, uglify({
       mangle: false
-    }))
+    })))
     .pipe(gulp.dest(config.theme_path + pathBuild.dist.js));
 });

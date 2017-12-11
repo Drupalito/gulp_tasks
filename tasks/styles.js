@@ -14,6 +14,7 @@ const autoprefixer = require('gulp-autoprefixer');
 const minifycss = require('gulp-minify-css');
 const csscomb = require('gulp-csscomb');
 const browserSync = require('browser-sync');
+const gulpif = require('gulp-if');
 
 const pathBuild = config.buildPath;
 
@@ -33,8 +34,8 @@ gulp.task('styles', () => {
     .pipe(gulp.dest(config.theme_path + pathBuild.dist.css))
     .pipe(autoprefixer({ browsers: config.autoprefixer}))
     // .pipe(csscomb())
-    .pipe(rename({ suffix: '.min' }))
-    .pipe(minifycss({ keepBreaks: false }))
+    .pipe(gulpif(isProd, rename({ suffix: '.min' })))
+    .pipe(gulpif(isProd, minifycss({ keepBreaks: false })))
     .pipe(gulp.dest(config.theme_path + pathBuild.dist.css))
     .pipe(browserSync.reload({stream:true}));
 });
