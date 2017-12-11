@@ -20,7 +20,7 @@
 | Command | Description
 |---------|------------
 | **build** | **Sans minification des CSS et JS.**<br/>Regroupe: `clean`, `fonts`, `images`, `styles`, `scripts`.
-| **build --prod** | **Avec minification des CSS et JS.**<br/>Regroupe: `clean`, `fonts`, `images`, `styles`, `scripts`.
+| **build \--prod** | **Avec minification des CSS et JS.**<br/>Regroupe: `clean`, `fonts`, `images`, `styles`, `scripts`.
 | **watch** | **Observateur de fichiers.**<br/>Réécriture en cas de modification des fichiers sources.
 
 ### Tâches individuelles
