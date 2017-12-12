@@ -11,13 +11,15 @@ const gulp = require('gulp');
 const watch = require('gulp-watch');
 const browserSync = require('browser-sync');
 
-const pathBuild = config.buildPath;
+const pathFolder = config.pathfolder;
 
 const WATCH_FILES = [
-  config.theme_path + '/css/**/*.css',
-  config.theme_path + '/js/**/*.js',
-  config.theme_path + '/images/**/*',
-  config.theme_path + '/*.{php,inc,info,html,md,twig}'
+  config.path.src + pathFolder.dist.css + '/**/*.css',
+  config.path.src + pathFolder.dist.js + '/**/*.js',
+  config.path.src + pathFolder.dist.images / '/**/*',
+  config.path.src + pathFolder.dist.fonts / '/**/*',
+  config.path.src + pathFolder.dist.libraries / '/**/*',
+  config.path.src + '/*.{php,inc,info,html,md,twig}'
 ];
 
 // Watch files task
@@ -30,10 +32,10 @@ gulp.task('watch', () => {
   });
 
   gulp.watch(
-    config.theme_path + pathBuild.source + '/scss/**/*.scss', ['styles']);
+    config.path.src + pathFolder.source + '/scss/**/*.scss', ['styles']);
 
   gulp.watch(
-    config.theme_path + pathBuild.source + '/js/*.js', ['scripts']);
+    config.path.src + pathFolder.source + '/js/*.js', ['scripts']);
 
-  gulp.watch(config.theme_drupal + '/**/*.{php,inc,info,html,md,twig}').on('change', browserSync.reload);
+  gulp.watch(config.path.dist + '/**/*.{php,inc,info,html,md,twig}').on('change', browserSync.reload);
 });

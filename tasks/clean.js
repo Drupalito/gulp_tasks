@@ -10,13 +10,14 @@ const config = require('config-yml');
 const gulp = require('gulp');
 const del = require('del');
 
-const pathBuild = config.buildPath;
+const pathFolder = config.pathfolder;
 
 const REMOVE_FOLDERS = [
-  config.theme_path + pathBuild.dist.css,
-  config.theme_path + pathBuild.dist.images,
-  config.theme_path + pathBuild.dist.js,
-  config.theme_path + pathBuild.dist.fonts
+  config.path.dist + pathFolder.dist.css,
+  config.path.dist + pathFolder.dist.images,
+  config.path.dist + pathFolder.dist.js,
+  config.path.dist + pathFolder.dist.fonts,
+  config.path.dist + pathFolder.dist.libraries
 ];
 
 // Remove build folder

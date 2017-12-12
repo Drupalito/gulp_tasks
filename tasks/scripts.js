@@ -13,18 +13,18 @@ const concat = require('gulp-concat');
 const uglify = require('gulp-uglify');
 const gulpif = require('gulp-if');
 
-const pathBuild = config.buildPath;
+const pathFolder = config.pathfolder;
 
 // Concat and uglify JS file task
 gulp.task('scripts', () => {
   gulp.src([
-      config.theme_path + pathBuild.source + '/js/main.js'
+      config.path.src + pathFolder.source + '/js/main.js'
     ])
     .pipe(concat('main.js'))
-    .pipe(gulp.dest(config.theme_path + pathBuild.dist.js))
+    .pipe(gulp.dest(config.theme_path + pathFolder.dist.js))
     .pipe(gulpif(isProd, rename('main.min.js')))
     .pipe(gulpif(isProd, uglify({
       mangle: false
     })))
-    .pipe(gulp.dest(config.theme_path + pathBuild.dist.js));
+    .pipe(gulp.dest(config.path.dist + pathFolder.dist.js));
 });

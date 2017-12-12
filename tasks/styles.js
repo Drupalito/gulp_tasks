@@ -16,13 +16,13 @@ const csscomb = require('gulp-csscomb');
 const browserSync = require('browser-sync');
 const gulpif = require('gulp-if');
 
-const pathBuild = config.buildPath;
+const pathFolder = config.pathfolder;
 
 // https://github.com/ai/browserslist#queries
 
 // Build CSS files task
 gulp.task('styles', () => {
-  gulp.src(config.theme_path + pathBuild.source + '/scss/**/*.scss')
+  gulp.src(config.path.src + pathFolder.source + '/scss/**/*.scss')
     .pipe(sass({
       // outputStyle: 'nested',
       precision: 10,
@@ -31,11 +31,11 @@ gulp.task('styles', () => {
         notify().write(err);
       }
     }).on('error', sass.logError))
-    .pipe(gulp.dest(config.theme_path + pathBuild.dist.css))
-    .pipe(autoprefixer({ browsers: config.autoprefixer}))
+    .pipe(gulp.dest(config.path.dist + pathFolder.dist.css))
+    .pipe(autoprefixer({ browsers: config.autoprefixer }))
     // .pipe(csscomb())
     .pipe(gulpif(isProd, rename({ suffix: '.min' })))
     .pipe(gulpif(isProd, minifycss({ keepBreaks: false })))
-    .pipe(gulp.dest(config.theme_path + pathBuild.dist.css))
+    .pipe(gulp.dest(config.path.dist + pathFolder.dist.css))
     .pipe(browserSync.reload({stream:true}));
 });

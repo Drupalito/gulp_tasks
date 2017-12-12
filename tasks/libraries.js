@@ -9,10 +9,10 @@
 const config = require('config-yml');
 const gulp = require('gulp');
 
-const pathBuild = config.buildPath;
+const pathFolder = config.pathfolder;
 
 // Copy fonts task
 gulp.task('libraries', () => {
-  return gulp.src(config.theme_path + pathBuild.source + '/libraries/**.*')
-    .pipe(gulp.dest(config.theme_path + pathBuild.dist.fonts));
+  return gulp.src(config.path.src + pathFolder.source + '/libraries/**.*')
+    .pipe(gulp.dest(config.path.dist + pathFolder.dist.libraries));
 });

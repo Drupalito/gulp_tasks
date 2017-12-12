@@ -1,6 +1,5 @@
 name: "subtheme_child"
 url: "[URL]"
-theme_path: "www/sites/all/themes/custom/subtheme_child"
 autoprefixer:
   - "last 5 versions"
   - "ie 9"
@@ -9,10 +8,14 @@ autoprefixer:
   - "ios >= 7"
   - "android >= 4.4"
   - "opera 12"
-buildPath:
+path:
+  dist: "[PATH_TO_THEME]"
+  src: "[PATH_TO_SOURCE]"
+pathfolder:
   source: /source
   dist:
     css: /css
     images: /images
     fonts: /fonts
+    libraries: /libraries
     js: /js

@@ -5,9 +5,10 @@
 
 Éditer le fichier `config.yml`.
 
-* `name` : correspond au nom de votre projet ;
-* `url` : indiquer l'adresse http (_exemple: http://nom_du_site.com_) ;
-* `theme_path` : correspond au chemin vers le dosiser du thème créé (_exemple: www/sites/all/themes/custom/subtheme_child_).
+* `name`: correspond au nom de votre projet ;
+* `url`: indiquer l'adresse http (_exemple: http://nom_du_site.com_) ;
+* `path.dist`: Chemin vers le dosiser du thème (_exemple: www/sites/all/themes/custom/subtheme_child_) ;
+* `path.src`: Chemin vers le dosiser des sources.
 
 ## Installation
 
