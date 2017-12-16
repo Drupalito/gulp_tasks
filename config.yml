@@ -1,4 +1,5 @@
-name: "subtheme_child"
+name: "[SITE_NAME]"
+project: "[SITE_PROJECT]"
 url: "[URL]"
 autoprefixer:
   - "last 5 versions"
@@ -19,3 +20,8 @@ pathfolder:
     fonts: /fonts
     libraries: /libraries
     js: /js
+assets:
+  colors:
+    default:   "COLORZ_DEFAULT"
+    primary:   "COLORZ_PRIMARY"
+    secondary: "COLORZ_SECONDARY"

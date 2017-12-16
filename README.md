@@ -5,7 +5,8 @@
 
 Éditer le fichier `config.yml`.
 
-* `name`: correspond au nom de votre projet ;
+* `name`: nom du projet libre ;
+* `project`: nom du projet en **minuscule sans espace** ;
 * `url`: indiquer l'adresse http (_exemple: http://nom_du_site.com_) ;
 * `path.dist`: Chemin vers le dosiser du thème (_exemple: www/sites/all/themes/custom/subtheme_child_) ;
 * `path.src`: Chemin vers le dosiser des sources.
