@@ -25,7 +25,7 @@ gulp.task('styles', () => {
   gulp.src(config.path.src + pathFolder.source + '/scss/**/*.scss')
     .pipe(sass({
       // outputStyle: 'nested',
-      precision: 10,
+      precision: 6,
       errLogToConsole: true,
       onError: function (err) {
         notify().write(err);
