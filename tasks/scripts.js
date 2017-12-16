@@ -21,7 +21,7 @@ gulp.task('scripts', () => {
       config.path.src + pathFolder.source + '/js/main.js'
     ])
     .pipe(concat('main.js'))
-    .pipe(gulp.dest(config.theme_path + pathFolder.dist.js))
+    .pipe(gulp.dest(config.path.dist + pathFolder.dist.js))
     .pipe(gulpif(isProd, rename('main.min.js')))
     .pipe(gulpif(isProd, uglify({
       mangle: false
