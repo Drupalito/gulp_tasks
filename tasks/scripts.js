@@ -9,20 +9,23 @@
 const config = require('config-yml');
 const gulp = require('gulp');
 const rename = require('gulp-rename');
-const concat = require('gulp-concat');
+const concat = require('gulp-concat-multi');
 const uglify = require('gulp-uglify');
 const gulpif = require('gulp-if');
 
 const pathFolder = config.pathfolder;
 
+const CONCAT_JS_FILES = [{
+  'main.js': [
+    config.path.src + pathFolder.source + '/js/main.js'
+  ]
+}];
+
 // Concat and uglify JS file task
 gulp.task('scripts', () => {
-  gulp.src([
-      config.path.src + pathFolder.source + '/js/main.js'
-    ])
-    .pipe(concat('main.js'))
+  return concat(CONCAT_JS_FILES)
     .pipe(gulp.dest(config.path.dist + pathFolder.dist.js))
-    .pipe(gulpif(isProd, rename('main.min.js')))
+    // .pipe(gulpif(isProd, rename('main.min.js')))
     .pipe(gulpif(isProd, uglify({
       mangle: false
     })))

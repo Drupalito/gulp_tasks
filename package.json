@@ -13,7 +13,6 @@
     "del": "^3.0.0",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^4.0.0",
-    "gulp-concat": "^2.6.0",
     "gulp-csscomb": "^3.0.6",
     "gulp-if": "^2.0.2",
     "gulp-imagemin": "^4.0.0",
@@ -28,6 +27,7 @@
   },
   "dependencies": {
     "config-yml": "^0.8.0",
+    "gulp-concat-multi": "^1.0.1",
     "imagemin-pngquant": "^5.0.1"
   }
 }
