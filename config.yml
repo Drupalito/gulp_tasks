@@ -22,6 +22,6 @@ pathfolder:
     js: /js
 assets:
   colors:
-    default:   "COLORZ_DEFAULT"
-    primary:   "COLORZ_PRIMARY"
-    secondary: "COLORZ_SECONDARY"
+    default:   "[COLORZ_DEFAULT]"
+    primary:   "[COLORZ_PRIMARY]"
+    secondary: "[COLORZ_SECONDARY]"
