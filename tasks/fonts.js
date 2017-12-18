@@ -1,10 +1,13 @@
 
 /*!
- * subtheme_child (OWNER_NAME)
- * Gulp Tasks (CURRENT_YEAR)
+ * [SITE_NAME]
+ * Gulp Tasks: fonts.js
  *
  * Tâche permettant de copier
- * les fonts icons et fonts family
+ * les fonts icons et fonts family.
+ *
+ * [OWNER_NAME] <[OWNER_EMAIL]>
+ * ([CURRENT_YEAR]) - Licensed MIT
  */
 const config = require('config-yml');
 const gulp = require('gulp');

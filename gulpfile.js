@@ -1,8 +1,10 @@
 
 /*!
- * subtheme_child (OWNER_NAME)
- * Gulp Tasks (CURRENT_YEAR)
- * Licensed MIT
+ * [SITE_NAME]
+ * Gulp Tasks
+ *
+ * [OWNER_NAME] <[OWNER_EMAIL]>
+ * ([CURRENT_YEAR]) - Licensed MIT
  */
 'use strict';
 

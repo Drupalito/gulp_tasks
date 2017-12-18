@@ -1,10 +1,13 @@
 
 /*!
- * subtheme_child (OWNER_NAME)
- * Gulp Tasks (CURRENT_YEAR)
+ * [SITE_NAME]
+ * Gulp Tasks: libraries.js
  *
  * Tâche permettant de copier
- * Les librairies externes CSS et JS
+ * Les librairies externes CSS et JS.
+ *
+ * [OWNER_NAME] <[OWNER_EMAIL]>
+ * ([CURRENT_YEAR]) - Licensed MIT
  */
 const config = require('config-yml');
 const gulp = require('gulp');

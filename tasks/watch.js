@@ -1,10 +1,13 @@
 
 /*!
- * subtheme_child (OWNER_NAME)
- * Gulp Tasks (CURRENT_YEAR)
+ * [SITE_NAME]
+ * Gulp Tasks: watch.js
  *
  * Tâche permettant de surveiller
- * les modifications des fichiers
+ * les modifications des fichiers.
+ *
+ * [OWNER_NAME] <[OWNER_EMAIL]>
+ * ([CURRENT_YEAR]) - Licensed MIT
  */
 const config = require('config-yml');
 const gulp = require('gulp');

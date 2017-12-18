@@ -1,10 +1,13 @@
 
 /*!
- * subtheme_child (OWNER_NAME)
- * Gulp Tasks (CURRENT_YEAR)
+ * [SITE_NAME]
+ * Gulp Tasks: images.js
  *
  * Tâche permettant de copier et optimiser
- * les images png, jpg et gif
+ * les images png, jpg et gif.
+ *
+ * [OWNER_NAME] <[OWNER_EMAIL]>
+ * ([CURRENT_YEAR]) - Licensed MIT
  */
 const config = require('config-yml');
 const gulp = require('gulp');

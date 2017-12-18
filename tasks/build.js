@@ -1,10 +1,13 @@
 
 /*!
- * subtheme_child (OWNER_NAME)
- * Gulp Tasks (CURRENT_YEAR)
+ * [SITE_NAME]
+ * Gulp Tasks: build.js
  *
  * Tâche permettant d'exécuter
- * les tâches de construction
+ * les tâches de construction.
+ *
+ * [OWNER_NAME] <[OWNER_EMAIL]>
+ * ([CURRENT_YEAR]) - Licensed MIT
  */
 const config = require('config-yml');
 const gulp = require('gulp');
