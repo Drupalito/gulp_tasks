@@ -15,6 +15,8 @@
 
 `npm install`
 
+Nécessite: NodeJS, Gulp, Sass.
+
 ## Tâches automatiques
 
 ### Tâches principales
