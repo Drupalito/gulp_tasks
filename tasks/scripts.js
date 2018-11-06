@@ -9,20 +9,20 @@
  * [OWNER_NAME] <[OWNER_EMAIL]>
  * ([CURRENT_YEAR]) - Licensed MIT
  */
-const config = require('config-yml');
-const gulp = require('gulp');
-const rename = require('gulp-rename');
-const concat = require('gulp-concat-multi');
-const uglify = require('gulp-uglify');
-const gulpif = require('gulp-if');
+const config = require('config-yml')
+const gulp = require('gulp')
+const rename = require('gulp-rename')
+const concat = require('gulp-concat-multi')
+const uglify = require('gulp-uglify')
+const gulpif = require('gulp-if')
 
-const pathFolder = config.pathfolder;
+const pathFolder = config.pathfolder
 
 const CONCAT_JS_FILES = [{
   'main.js': [
     config.path.src + pathFolder.source + '/js/main-astarter.js'
   ]
-}];
+}]
 
 // Concat and uglify JS file task
 gulp.task('scripts', () => {
@@ -32,5 +32,5 @@ gulp.task('scripts', () => {
     .pipe(gulpif(isProd, uglify({
       mangle: false
     })))
-    .pipe(gulp.dest(config.path.dist + pathFolder.dist.js));
-});
+    .pipe(gulp.dest(config.path.dist + pathFolder.dist.js))
+})

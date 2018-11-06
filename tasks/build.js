@@ -9,8 +9,8 @@
  * [OWNER_NAME] <[OWNER_EMAIL]>
  * ([CURRENT_YEAR]) - Licensed MIT
  */
-const config = require('config-yml');
-const gulp = require('gulp');
+const config = require('config-yml')
+const gulp = require('gulp')
 
 // Register tasks
 gulp.task('build', [
@@ -19,4 +19,4 @@ gulp.task('build', [
   'images',
   'styles',
   'scripts',
-]);
+])

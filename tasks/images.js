@@ -9,12 +9,12 @@
  * [OWNER_NAME] <[OWNER_EMAIL]>
  * ([CURRENT_YEAR]) - Licensed MIT
  */
-const config = require('config-yml');
-const gulp = require('gulp');
-const imagemin = require('gulp-imagemin');
-const pngquant = require('imagemin-pngquant');
+const config = require('config-yml')
+const gulp = require('gulp')
+const imagemin = require('gulp-imagemin')
+const pngquant = require('imagemin-pngquant')
 
-const pathFolder = config.pathfolder;
+const pathFolder = config.pathfolder
 
 // Optimize Images task
 gulp.task('images', () => {
@@ -25,5 +25,5 @@ gulp.task('images', () => {
       svgoPlugins: [{removeViewBox: false}, {removeUselessStrokeAndFill:false}],
       use: [pngquant()]
     }))
-    .pipe(gulp.dest(config.path.dist + pathFolder.dist.images));
-});
+    .pipe(gulp.dest(config.path.dist + pathFolder.dist.images))
+})
