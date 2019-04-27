@@ -48,7 +48,7 @@ gulp.task('drupal', () => {
   var tasks = baseFiles.map(dir => {
 
     var buildFile = getFiles(sourceFiles + '/' + dir)
-    if (dir != "helpers" || dir != "modules") {
+    if (dir != "helpers" || dir != "modules" || dir != "libraries") {
       var scssFile = buildFile.map(file => {
 
         var destfilename = file.replace(/^\_/, dir + ".")
