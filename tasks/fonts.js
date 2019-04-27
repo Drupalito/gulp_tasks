@@ -16,6 +16,6 @@ const pathFolder = config.pathfolder
 
 // Copy fonts task
 gulp.task('fonts', () => {
-  return gulp.src(config.path.src + pathFolder.source + '/fonts/**.*')
+  return gulp.src(config.path.src + pathFolder.source + '/fonts/**/*')
     .pipe(gulp.dest(config.path.dist + pathFolder.dist.fonts))
 })

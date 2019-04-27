@@ -18,11 +18,11 @@ const gulpif = require('gulp-if')
 
 const pathFolder = config.pathfolder
 
-const CONCAT_JS_FILES = [{
+const CONCAT_JS_FILES = {
   'main.js': [
     config.path.src + pathFolder.source + '/js/main-astarter.js'
   ]
-}]
+}
 
 // Concat and uglify JS file task
 gulp.task('scripts', () => {
