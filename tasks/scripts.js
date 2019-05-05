@@ -20,7 +20,7 @@ const pathFolder = config.pathfolder
 
 const CONCAT_JS_FILES = {
   'main.js': [
-    config.path.src + pathFolder.source + '/js/main-astarter.js'
+    config.path.src + pathFolder.source + '/js/main.js'
   ]
 }
 
