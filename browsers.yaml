@@ -1,0 +1,130 @@
+url: http://www.google.fr
+browsers:
+    -
+      os: "android"
+      os_version: "4.0"
+      browser: null
+      device: "Samsung Galaxy Nexus"
+    -
+      os: "android"
+      os_version: "4.0"
+      browser: null
+      device: "Google Nexus"
+    -
+      os: "android"
+      os_version: "5.0"
+      browser: null
+      device: "Google Nexus 9"
+    -
+      os: "android"
+      os_version: "4.0"
+      browser: null
+      device: "HTC One X"
+    -
+      os: "android"
+      os_version: "4.4"
+      browser: null
+      device: "Samesung Galaxy S5"
+    -
+      os: "android"
+      os_version: "4.4"
+      browser: null
+      device: "Samesung Galaxy Tab 4 10.1"
+    -
+      os: "ios"
+      os_version: "7.0"
+      browser: null
+      device: "iPad Mini"
+    -
+      os: "ios"
+      os_version: "8.3"
+      browser: null
+      device: "iPad Mini 2"
+    -
+      os: "ios"
+      os_version: "8.3"
+      browser: null
+      device: "iPhone 6 Plus"
+    -
+      os: "ios"
+      os_version: "7.0"
+      browser: null
+      device: "iPhone 5S"
+    -
+      device: null
+      browser: "ie"
+      os: "Windows"
+      os_version: "10"
+      browser_version: "15.0"
+    -
+      device: null
+      browser: "firefox"
+      os: "Windows"
+      os_version: "10"
+      browser_version: "45.0"
+    -
+      device: null
+      browser: "chrome"
+      os: "Windows"
+      os_version: "10"
+      browser_version: "50.0"
+    -
+      device: null
+      browser: "chrome"
+      os: "Windows"
+      os_version: "8"
+      browser_version: "50.0"
+    -
+      device: null
+      browser: "ie"
+      os: "Windows"
+      os_version: "8"
+      browser_version: "10.0"
+    -
+      device: null
+      browser: "ie"
+      os: "Windows"
+      os_version: "7"
+      browser_version: "11.0"
+    -
+      device: null
+      browser: "ie"
+      os: "Windows"
+      os_version: "7"
+      browser_version: "10.0"
+    -
+      device: null
+      browser: "firefox"
+      os: "Windows"
+      os_version: "7"
+      browser_version: "45.0"
+    -
+      device: null
+      browser: "safari"
+      os: "OS X"
+      os_version: "El Captain"
+      browser_version: "9.1"
+    -
+      device: null
+      browser: "firefox"
+      os: "OS X"
+      os_version: "El Captain"
+      browser_version: "45.0"
+    -
+      device: null
+      browser: "chrome"
+      os: "OS X"
+      os_version: "El Captain"
+      browser_version: "50.0"
+    -
+      device: null
+      browser: "safari"
+      os: "OS X"
+      os_version: "Yosemite"
+      browser_version: "8.0"
+    -
+      device: null
+      browser: "safari"
+      os: "OS X"
+      os_version: "Mavericks"
+      browser_version: "7.1"
